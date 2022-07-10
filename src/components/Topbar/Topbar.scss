@@ -7,17 +7,22 @@
     color: $mainColor;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     transition: all 1s ease;
+    
+
     .wrapper{
-        padding: 10px 30px;
+        padding: 20px 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         .left{
+            font-family: "Roboto";
             display: flex;
-            align-items: center;
+            
+            overflow: hidden;
             .itemContainer{
+                font-family: "Roboto";
                 display: flex;
                 align-items: center;
                 margin-right: 30px;
@@ -26,14 +31,15 @@
                     margin-right: 5px;
                 }
                 span{
-                    font:"Roboto";
+                    font-family: inherit;
                     font-size: 20px;
                     font-weight: 700;
                 }
             }
             .logo{
-                font-size: 40px;
-                font-weight: 700;
+                font-family: inherit;
+                color: inherit;
+                transform: scale(1.2);
                 text-decoration: none;
                 margin-right: 40px;
                 transition: all 1s ease;

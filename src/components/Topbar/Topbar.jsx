@@ -3,13 +3,14 @@ import "./Topbar.scss";
 import "material-icons/iconfont/material-icons.css";
 import PersonPinIcon from "@mui/icons-material/PersonPin";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import HomeIcon from "@mui/icons-material/Home";
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
-    <div class={"topbar " + (menuOpen && "active")}>
+    <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Shravun
+            <HomeIcon />
           </a>
           <div className="itemContainer">
             <PersonPinIcon className="icon" />
