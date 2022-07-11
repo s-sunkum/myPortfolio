@@ -1,3 +1,14 @@
 .experience{
     background-color: bisque;
+    .column1{
+        display: inline-block;
+    }
+    .column2{
+        display: inline-block;
+        justify-content: center;
+        img{
+            height: 100px;
+            
+        }
+    }
 }
