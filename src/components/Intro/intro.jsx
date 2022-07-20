@@ -7,7 +7,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src={require("./Test.png")} />
+          <img src={require("./Personal.png")} />
         </div>
       </div>
       <div className="right">

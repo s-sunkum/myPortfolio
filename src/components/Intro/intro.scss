@@ -2,20 +2,14 @@
     background-color: white;
     display: flex;
     .left{
-        flex: 0.5;
+        flex: 0.6;
         overflow: hidden;
 
         .imgContainer{
-            overflow: hidden;
-
+            margin-top: 40px;
             background-color: crimson;
             border-radius: 50%;
             display: flex;
-
-            img{
-                height: 100%;
-                display: flex;
-            }
         }
     }
     .right{
